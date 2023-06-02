@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+margin: 0;}
+
+h1{font-family: arialblack;
+	font-size: 40px;
+	text-align: center;
+	}
+
+header{background-image: url("imagem/tft.png");
+	background-position: center;
+background-attachment: fixed;
+background-size: 100% auto;}
+
+.container{max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;}
+
+   .wallpaper{
+    display: flex;
+    justify-content: center;
+    padding: 88px 0;}
+
+    .wallpaper .text{
+    margin: 160px;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 98px;
+    font-family: Helvetica;
+    color: black;
+    text-shadow: red 0px 2px 1px;
+}
+
+h2{font-size:40px;
+
+ }
+ .textoA{display: block;
+ 	font-size: 25px;
+ 	width: 25em;
+ 	text-align: left;
+ 	text-indent: 10px;
+ 	float: left;
+ 
+
+ 	
+ }
+.Qimagem img{display: block;
+	width: 40em;
+height: auto;
+border: solid black 2px;
+margin-top: 20px;
+}
+.Qimagem img:hover{animation: zoom 1s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+h3{font-family: arialblack;
+color: white;
+font-size: 20px;}
+
+footer{
+  background-color: blanchedalmond;
+height: 50px;
+margin-top: 30px;
+}
+ul{display: flex;
+  margin-left: 33px;
+  
+
+}
+li{
+  padding-right: 20em;}
